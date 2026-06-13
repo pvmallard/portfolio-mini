@@ -8,32 +8,20 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
-
-      <div className="ticks"></div>
+    <div class="container">
+      <header class="center">
+        <h1>hi and welcome!</h1>
+        <p>
+          sorry for the mess!
+        </p>
+        <p>
+          this is a temporary stopping point as i am redesigning my main portfolio. but feel free to explore!
+        </p>
+      </header>
 
       <section id="next-steps">
-        <div id="docs">
+
+        {/* <div id="docs">
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
@@ -53,16 +41,17 @@ function App() {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
+
         <div id="social">
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#social-icon"></use>
           </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
+          <h2>Find me elsewhere!</h2>
+          <p>I'm all over</p>
           <ul>
             <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
+              <a href="https://github.com/pvmallard" target="_blank">
                 <svg
                   className="button-icon"
                   role="presentation"
@@ -74,48 +63,29 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
+              <a href="https://www.linkedin.com/in/mallory-prescott-45b4a41ba/" target="_blank">
+                <i class="fa fa-linkedin-square"></i>
+                LinkedIn
               </a>
             </li>
             <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
+              <a href="https://mallardamania.itch.io/" target="_blank">
+                <i class="fa fa-gamepad"></i>
+                itch.io
               </a>
             </li>
             <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
+              <a href="https://www.tiktok.com/@three_days_worth" target="_blank">
+                <i class="fa fa-paint-brush"></i>
+                TikTok
               </a>
             </li>
           </ul>
         </div>
       </section>
 
-      <div className="ticks"></div>
       <section id="spacer"></section>
-    </>
+    </div>
   )
 }
 
