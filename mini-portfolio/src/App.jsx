@@ -75,9 +75,9 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="https://www.tiktok.com/@three_days_worth" target="_blank">
-                <i class="fa fa-paint-brush"></i>
-                TikTok
+              <a href="https://www.tumblr.com/threedaysworth" target="_blank">
+                <i class="fa fa-tumblr-square"></i>
+                tumblr
               </a>
             </li>
           </ul>
