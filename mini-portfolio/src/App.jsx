@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import tuxedoSam from './assets/compressed-images/tuxedosam.gif'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
@@ -12,7 +13,7 @@ function App() {
       <header class="center">
         <img 
           className='header-img'
-          src="\src\assets\compressed-images\tuxedosam.gif"
+          src={tuxedoSam}
 
         ></img>
         <h1>hi and welcome!</h1>
