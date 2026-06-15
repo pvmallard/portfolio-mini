@@ -9,13 +9,15 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div class="container">
-      <header class="center">
-        <img 
-          className='header-img'
+    <div className="container">
+      <header className="center">
+        <figure>
+          <img 
+          className="header-img"
           src={tuxedoSam}
-
-        ></img>
+          alt="tuxedo same floating with various sewing stickers"
+        /></figure>
+        
         <h1>hi and welcome!</h1>
         <h2>it's mallory prescott's mini portfolio</h2>
         <p>
